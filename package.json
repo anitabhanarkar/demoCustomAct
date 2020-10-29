@@ -1,5 +1,5 @@
 {
-	"name": "<NAME OF YOUR BACKEND MODULE>",
+	"name": "custom activity",
 	"version": "0.0.2",
 	"description": "Backend for the Salesforce Service Cloud custom split activity",
 	"main": "backend/server.js",
@@ -15,12 +15,13 @@
 	"options": {
 		"salesforce": {
 			"serviceCloud": {
-				"username": "<YOUR SERVICE CLOUD USERNAME>",
-				"password": "<YOUR SERVICE CLOUD PASSWORD>",
-				"loginUrl": "https://login.salesforce.com"
+				"username": "trailhead143@gmail.com
+",
+				"password": "Devine@123",
+				"loginUrl": "https://trailheadhandson-dev-ed.my.salesforce.com/"
 			},
 			"marketingCloud": {
-				"jwtSecret": "<YOUR UNCONVERTED SALT KEY HERE>"
+				"jwtSecret": "1yqWBqLl_S0_eG5-Sfi7LwAjIT0A4i8BCcmk6IUNy4A0AEjs7hkTT6HhlD8LfueDqcnHC-ShPymHZCJm8WAsJKoUt99i_su8V_HJqQON4uTWTpM2x_QJGw7kEnyZbnwbBo2Q_5MNTGBLeZe2ySoSOGO7uLHSSwBG9Og-u4GEQ3sCNJ-dqqVyrMEmhKITJXrEfOLQjGnUIh7Wm53KmbYW2_f1sD6zbQLEz2owkbaneWCAQOfWWMSYsfUEe4t8dA2"
 			}
 		}
 	}
